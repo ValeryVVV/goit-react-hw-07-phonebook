@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import style from './ContactLists.module.css';
 import { useDispatch, useSelector } from "react-redux";
 import { getContacts, getFilter } from "redux/selectors";
-import { deleteContact } from "redux/contactsSlice";
+import { deleteContact } from "redux/operations";
 
 
 const ContactList = () => {
